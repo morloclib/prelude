@@ -1,0 +1,5 @@
+module prelude ()
+
+class Packable a b where
+  pack :: a -> b
+  unpack :: b -> a
